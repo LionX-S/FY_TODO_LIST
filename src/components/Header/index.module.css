@@ -1,0 +1,21 @@
+.header {
+  position: relative;
+  background-color: #146fe1;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0 auto;
+}
+.header span {
+  display: block;
+  height: 100%;
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
